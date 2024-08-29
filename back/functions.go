@@ -97,7 +97,7 @@ func OneArtist(id int) (Artist, error) {
 }
 
 func GetLocation(id int) (Loc, error) {
-	var location Loc // see the structure
+	var location Loc 
 	response, err := http.Get(fmt.Sprintf("https://groupietrackers.herokuapp.com/api/locations/%d", id))
 	if err != nil {
 		return location, err
