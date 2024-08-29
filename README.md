@@ -31,7 +31,7 @@ Groupie Trackers consists on receiving a given API and manipulate the data conta
 
 Only the standard Go packages are allowed.
 
-## Run Locally
+### Run Locally
 - Clone the project
 - Go to the project directory
 - Start the server
