@@ -18,19 +18,6 @@ Groupie Trackers consists on receiving a given API and manipulate the data conta
         The event/action we want you to do is known as a client call to the server (client-server). We can say it is a feature of your choice that needs to trigger an action. This action must communicate with the server in order to recieve information, ([request-response])(https://en.wikipedia.org/wiki/Request%E2%80%93response)
         An event consists in a system that responds to some kind of action triggered by the client, time, or any other factor.
 
-### Instructions
-
-    The backend must be written in Go.
-    The site and server cannot crash at any time.
-    All pages must work correctly and you must take care of any errors.
-    The code must respect the good practices.
-    It is recommended to have test files for unit testing.
-
-
-### Allowed packages
-
-Only the standard Go packages are allowed.
-
 ### Run Locally
 - Clone the project
 - Go to the project directory
